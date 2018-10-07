@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 237, 237);
+  }
+  
+  #Main, #Summary, #Experience, #Education, #Skill-list {
+    position: relative;
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(58, 58, 58);
+  }
+   
+  #central-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 560px;
+    height: 130px;
+  }
+  
+  #bigHi {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 130px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #name span {
+    color: rgb(254, 255, 200);
+  }
+  
+  #profession {
+    width: 420px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: rgb(147, 147, 147);
+    text-align: right;
+  }
+  
+  #profession span {
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+    color: rgb(252, 252, 252);
+  }
+  
+  .next {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(139, 139, 139);
+    transition: 0.5s;
+  }
+  
+  .next:last-child {
+    bottom: 15px;
+  }
+  
+  .next:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  #about-me, #skills, #exp-title, #education-title{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #short-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 830px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  #short-info p {
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 40px;
+    line-height: 28px;
+    color: rgb(140, 140, 140);
+  }
+  
+  #face {
+    height: 260px;
+  }
+  
+  #skills {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: rgb(140, 140, 140);
+  }
+  
+  #skill-box {
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+    margin: 0 auto;
+  }
+  
+  #Iknow, #Istudy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+  }
+  
+  #skill-box li{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(240, 240, 240);
+  }
+  
+  #skill-box li:nth-child(1) {
+    margin-bottom: 16px;
+    font-family: 'Kalam', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  #Iknow li:nth-child(1){
+    color: rgb(179, 228, 131);
+  }
+  
+  #Istudy li:nth-child(1){
+    color: rgb(228, 131, 131);
+  }
+  
+  #exp-title {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #about-experience {
+    width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(140, 140, 140);
+  }
+  
+  #exp-ref-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  
+  .ref-box {
+    width: 220px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .box1 {
+    background-color: rgb(36, 41, 46);
+  }
+  
+  .box2 {
+    background-color: rgb(79, 170, 255);
+  }
+  
+  .box3 {
+    background-color: rgb(30, 199, 0);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h3 {
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(246, 246, 246);
+  }
+  
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(246, 246, 246);
+  }
+  
+  #Education {
+    display: flex;
+    flex-direction: column;
+    height: 1050px;
+  }
+  
+  #education-title{
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  
+  #imgCourses {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 60px;
+    padding: 0 30px;
+    background-color: rgb(31, 31, 31);
+    overflow: hidden;
+  }
+  
+  #social-network {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+  }
+  
+  .social-network-ico:nth-child(1){
+    height: 20px;
+  }
+  
+  #social-network li {
+    display: inline-block;
+  }
+  
+  #direct-contacts {
+    margin-right: 60px;
+    text-align: right;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgb(246, 246, 246);
+  }
