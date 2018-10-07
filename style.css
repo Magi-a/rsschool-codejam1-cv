@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     background-color: rgb(58, 58, 58);
     overflow: hidden;
-    border-bottom: dashed 2px rgb(237, 237, 237);
+    /*border-bottom: dashed 2px rgb(237, 237, 237);*/
   }
    
   #central-block {
@@ -76,7 +76,7 @@ body {
     color: rgb(204, 204, 204);
   }
   
-  #about-me, #skills, #ExpTitle{
+  #about-me, #skills, #ExpTitle, #education-title{
     margin: 0 auto;
     margin-top: 250px;
     margin-bottom: 50px;
@@ -227,4 +227,20 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
+  }
+  
+  #Education {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #education-title{
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  
+  #imgCourses {
+    margin: 0 auto;
+    width: 500px;
   }
