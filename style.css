@@ -1,3 +1,76 @@
-body, html {
-    
-}
+body {
+    background-color: rgb(237, 237, 237);
+    margin: 0;
+    padding: 0;
+  }
+  
+  #Main, #Summary, #Experience, Education {
+    position: relative;
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    overflow: hidden;
+  }
+  
+  #central-block {
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    height: 130px;
+  }
+  
+  #bigHi {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 130px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #name span {
+    color: rgb(254, 255, 200);
+  }
+  
+  #profession {
+    width: 420px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: rgb(147, 147, 147);
+    text-align: right;
+  }
+  
+  #profession span {
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+    color: rgb(252, 252, 252);
+  }
+  
+  .next {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(204, 204, 204);
+  }
