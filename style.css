@@ -74,3 +74,39 @@ body {
     font-weight: 700;
     color: rgb(204, 204, 204);
   }
+  
+  h2{
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #short-info{
+    margin: 0 auto;
+    width: 830px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #short-info p {
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 40px;
+    color: rgb(140, 140, 140);
+  }
+  
+  #face {
+    height: 260px;
+  }
