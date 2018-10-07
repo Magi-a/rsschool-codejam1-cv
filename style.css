@@ -84,7 +84,7 @@ body {
     color: rgb(255, 255, 255);
   }
   
-  #about-me, #skills, #ExpTitle, #education-title{
+  #about-me, #skills, #exp-title, #education-title{
     width: 500px;
     margin: 0 auto;
     margin-top: 250px;
@@ -165,7 +165,7 @@ body {
     color: rgb(228, 131, 131);
   }
   
-  #ExpTitle {
+  #exp-title {
     width: 500px;
     margin: 0 auto;
     margin-top: 150px;
