@@ -4,13 +4,14 @@ body {
     padding: 0;
   }
   
-  #Main, #Summary, #Experience, Education {
+  #Main, #Summary, #Experience, #Education {
     position: relative;
     width: 1024px;
     height: 100vh;
     margin: 0 auto;
     background-color: rgb(58, 58, 58);
     overflow: hidden;
+    border-bottom: dashed 2px rgb(237, 237, 237);
   }
   
   #central-block {
@@ -75,7 +76,7 @@ body {
     color: rgb(204, 204, 204);
   }
   
-  h2{
+  #about-me, #skills {
     margin: 0 auto;
     margin-top: 250px;
     margin-bottom: 50px;
@@ -104,9 +105,55 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-indent: 40px;
+    line-height: 28px;
     color: rgb(140, 140, 140);
   }
   
   #face {
     height: 260px;
   }
+  
+  #skills {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: rgb(140, 140, 140);
+  }
+  
+  #skill-box {
+    width: 680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #Iknow, #Istudy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+  }
+  
+  #skill-box li{
+    color: rgb(240, 240, 240);
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #skill-box li:nth-child(1) {
+    margin-bottom: 16px;
+    font-family: 'Kalam', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  #Iknow li:nth-child(1){
+    color: rgb(179, 228, 131);
+  }
+  
+  #Istudy li:nth-child(1){
+    color: rgb(228, 131, 131);
+  }
+  
