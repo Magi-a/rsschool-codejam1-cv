@@ -76,7 +76,7 @@ body {
     color: rgb(204, 204, 204);
   }
   
-  #about-me, #skills {
+  #about-me, #skills, #ExpTitle{
     margin: 0 auto;
     margin-top: 250px;
     margin-bottom: 50px;
@@ -157,3 +157,74 @@ body {
     color: rgb(228, 131, 131);
   }
   
+  #ExpTitle {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: rgb(252, 252, 252);
+  }
+  
+  #about-experience {
+    margin: 0 auto;
+    width: 760px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(140, 140, 140);
+  }
+  
+  #exp-ref-cont {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ref-box {
+    width: 220px;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .box1 {
+    background-color: rgb(36, 41, 46);
+  }
+  
+  .box2 {
+    background-color: rgb(79, 170, 255);
+  }
+  
+  .box3 {
+    background-color: rgb(30, 199, 0);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h3 {
+    margin-top: 80px;
+    color: rgb(246, 246, 246);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  h4 {
+    color: rgb(246, 246, 246);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
