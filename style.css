@@ -72,7 +72,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: rgb(204, 204, 204);
+    color: rgb(139, 139, 139);
+    transition: 0.5s;
+  }
+  
+  .next:last-child {
+    bottom: 15px;
+  }
+  
+  .next:hover {
+    color: rgb(255, 255, 255);
   }
   
   #about-me, #skills, #ExpTitle, #education-title{
