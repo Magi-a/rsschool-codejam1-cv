@@ -4,7 +4,7 @@ body {
     padding: 0;
   }
   
-  #Main, #Summary, #Experience, #Education {
+  #Main, #Summary, #Experience, #Education, #Skill-list {
     position: relative;
     width: 1024px;
     height: 100vh;
@@ -13,7 +13,7 @@ body {
     overflow: hidden;
     border-bottom: dashed 2px rgb(237, 237, 237);
   }
-  
+   
   #central-block {
     margin: 0 auto;
     margin-top: 300px;
